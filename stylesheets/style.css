@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    color: #777;
+    background: #777;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    width: 960px;
+}
+
+#wrapper {
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 70px;
+    margin: 10px 0;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 25px;
+}
+
+#navbar {
+    height: 70px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 25px;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bg2 {
+    background: #ebebeb;
+}
+
+section {
+    margin-top: 15px;
+    float: left;
+    width: 520px;
+    height: 300px;
+    position: relative;
+}
+
+#sectiontxt{
+    position: relative;
+    top: 35px;
+}
+
+article{
+    color: #ebebeb;
+    background: #777;
+    position: absolute;
+    width: 490px;
+    height: 200px;
+    top: 90px;
+    margin: 0 auto;
+    right: 15px;
+}
+
+aname{
+    position: relative;
+    top: 20px;
+
+}
+
+#aheadline{
+    position: absolute;
+    height: 55px;
+    width: 90%;
+    left: 5%;
+    top: 30%;
+}
+
+#aparagraph{
+    position: absolute;
+    height: 55px;
+    width: 90%;
+    left: 5%;
+    top: 65%;
+}
+
+h2 {
+    height: 20px;
+    position: absolute;
+    width: 100%;
+    top: 15px;
+}
+
+p {
+    height: 20px;
+    position: absolute;
+    width: 100%;
+    top: 15px;  
+}
+
+.txtformat {
+    color: #777;
+    background: #ebebeb;
+}
+
+aside{
+    float: right;
+    position: relative;
+    width: 420px;
+    height: 300px;
+    margin-top: 15px;
+}
+
+#asidetxt{
+    position: relative;
+    top: 50px;
+}
+
+footer{
+    height: 70px;
+    position: relative;
+    margin-top: 20px;
+}
+
+#foottxt{
+    position: absolute;
+    top: 25px;
+}
